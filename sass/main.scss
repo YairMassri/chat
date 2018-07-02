@@ -1,5 +1,6 @@
 @import 'global';
 @import 'loading-screen';
+@import 'chat-bublles';
 
 $whithcolor: white;
 $blackcolor: black;
@@ -11,25 +12,24 @@ $blackcolor: black;
     align-items: center;
     height: 100vh;
     width: 100vw;
+    background: rgb(127, 187, 140);
 }
 
 .logo-container{
     height: 35%;
     display: flex;
-    align-items: flex-end;
+    align-items: flex-end;  
 }
 
-.logo{
-    font-size: 40px;
-}
+.iconlogo{
+    height: 150px;
 
-.ion-md-chatbubbles{
-    font-size: 150px;
 }
 
 .sign-in-inputs-container{
     flex: 1;
     width: 100%;
+    
 
  .sign-in-input-container{
     width: 100%;
@@ -48,6 +48,7 @@ $blackcolor: black;
     border-bottom: 1px solid;
     font-size: 20px;
     margin-bottom: 20px;
+    background: rgb(175, 132, 132);
  }
 
  .sign-in-input:hover{
@@ -57,16 +58,12 @@ $blackcolor: black;
 }
 
 
-.auth-icons-container{
+.icons-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
-.auth-icon{
-    font-size: 40px;
-    margin: 20px 50px;
-}
 
 .btn-container{
     width: 100%;
@@ -81,16 +78,15 @@ $blackcolor: black;
 }
 
 .accent-color-1{
-    background-color: rgb(212, 182, 240);
+    background: linear-gradient(to bottom, rgb(127, 187, 140), rgb(165, 98, 98) , rgb(127, 187, 140));
+    // border-top: 1px solid black;
 }
 .accent-color-2{
-    background: rgb(241, 189, 189);
+    background: linear-gradient(to bottom, rgb(127, 187, 140), rgb(165, 98, 98) , rgb(127, 187, 140));
 }
 
 .icon{
-    font-size: 45px;
-    padding-left: 20px;
-    color: rgb(58, 54, 54);
+   size: 40px;
 }
 
 .icon:hover{
@@ -165,3 +161,4 @@ $blackcolor: black;
 .date{
     font-size: 10px;
 }
+
